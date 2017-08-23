@@ -7,9 +7,9 @@
 <ion-header>
 
   <ion-toolbar>
-    <ion-searchbar (input)="getItems($event)"></ion-searchbar>
+    <ion-searchbar></ion-searchbar>
     <ion-buttons end>
-      <button ion-button icon-only color="royal">
+      <button (click)="showCheckbox()" ion-button icon-only color="royal">
         <ion-icon name="funnel"></ion-icon>
       </button>
     </ion-buttons>
